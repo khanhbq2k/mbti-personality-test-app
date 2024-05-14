@@ -21,7 +21,7 @@ export default function Nav() {
           fontWeight="bold"
           textTransform="uppercase"
         >
-          MBTI Personality Test
+          Bài Kiểm Tra Tính Cách MBTI
         </Button>
       </Link>
       <Link href="/test/result/history">
@@ -29,7 +29,7 @@ export default function Nav() {
           variant="outline"
           leftIcon={<BiHistory size={24} />}
         >
-          Test Result History
+          Lịch Sử Kết Quả Kiểm Tra
         </Button>
       </Link>
     </Flex>

@@ -28,7 +28,7 @@ export default function TestResultHistory(props: TestResultHistoryProps) {
         as="h1"
         textAlign="center"
       >
-        Test Result History
+        Lịch Sử Kết Quả Kiểm Tra
       </Heading>
       <Flex
         w="full"

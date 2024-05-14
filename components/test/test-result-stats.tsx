@@ -71,7 +71,7 @@ export default function TestResultStats(props: TestResultStatsProps) {
         textAlign="center"
         fontSize="lg"
       >
-        Scores
+        Kết quả
       </Heading>
       {personalityClasses.map((personalityClass, index) => (
         <Flex

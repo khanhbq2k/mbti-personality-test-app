@@ -25,7 +25,7 @@ export default function TestMenu(props: TestMenuProps) {
           leftIcon={<RiInformationLine size={24} />}
           onClick={props.onShowInstructionsButtonClick}
         >
-          Instructions
+          Hướng dẫn
         </Button>
         <TestTimer />
       </Flex>

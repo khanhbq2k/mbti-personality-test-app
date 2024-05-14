@@ -36,14 +36,14 @@ export default function HomePage() {
                 color: "white",
               }}
             >
-              Welcome to MBTI Personality Test
+              Chào mừng bạn đến với Bài Kiểm Tra Tính Cách MBTI
             </Highlight>
           </Heading>
           <Text
             fontSize="xl"
             align="center"
           >
-            Learn to know yourself better with this personality test.
+            Hãy học để hiểu bản thân mình hơn qua bài kiểm tra này.
           </Text>
           <Link href="/test">
             <Button
@@ -52,7 +52,7 @@ export default function HomePage() {
               variant="outline"
               rightIcon={<FiArrowRight size={20} />}
             >
-              Take Test
+              Làm Bài Kiểm Tra
             </Button>
           </Link>
         </Flex>

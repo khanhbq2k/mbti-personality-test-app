@@ -19,26 +19,23 @@ export default function TestInstructions(props: TestInstructionsProps) {
       direction="column"
       gap={8}
     >
-      <Heading>Instructions</Heading>
+      <Heading>Hướng dẫn</Heading>
       <Flex
         direction="column"
         gap={2}
       >
         <Text>
-          Completing the test should only take 15 minutes or so. Here is several
-          hints about how to complete this test:
+          Việc hoàn thành bài kiểm tra chỉ mất khoảng 15 phút. Dưới đây là một số gợi ý về cách thực hiện bài kiểm tra này:
         </Text>
         <UnorderedList spacing={2}>
           <ListItem>
-            There are no right answers to any of these questions.
+            Không có câu trả lời đúng cho bất kỳ câu hỏi nào.
           </ListItem>
           <ListItem>
-            Answer the questions quickly, do not over-analyze them. Some seem
-            worded poorly. Go with what feels best.
+            Trả lời các câu hỏi một cách nhanh chóng, đừng phân tích quá kỹ. Một số câu hỏi có vẻ được diễn đạt kém. Hãy đi theo cảm giác tốt nhất của bạn.
           </ListItem>
           <ListItem>
-            Answer the questions as “the way you are”, not “the way you’d like
-            to be seen by others”.
+            Trả lời các câu hỏi theo “cách bạn là”, không phải “cách bạn muốn được nhìn nhận bởi người khác”.
           </ListItem>
         </UnorderedList>
       </Flex>
@@ -48,7 +45,7 @@ export default function TestInstructions(props: TestInstructionsProps) {
         alignSelf="flex-end"
         onClick={props.onCloseTestInstructions}
       >
-        Okay, I got it!
+        Được rồi, tôi hiểu!
       </Button>
     </Flex>
   );
