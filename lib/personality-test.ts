@@ -36,24 +36,24 @@ export interface PersonalityClassGroup {
   nameDescription: string;
   epithet: string;
   description: string;
-  jungianFunctionalPreference: {
-    dominant: string;
-    auxiliary: string;
-    tertiary: string;
-    inferior: string;
-  };
-  generalTraits: string[];
-  relationshipStrengths: string[];
-  relationshipWeaknesses: string[];
-  successDefinition: string;
-  strengths: string[];
-  gifts: string[];
-  potentialProblemAreas: string[];
-  explanationOfProblems: string;
-  solutions: string;
-  livingHappilyTips: string;
-  suggestions?: string[];
-  tenRulesToLive: string[];
+  // jungianFunctionalPreference: {
+  //   dominant: string;
+  //   auxiliary: string;
+  //   tertiary: string;
+  //   inferior: string;
+  // };
+  // generalTraits: string[];
+  // relationshipStrengths: string[];
+  // relationshipWeaknesses: string[];
+  // successDefinition: string;
+  // strengths: string[];
+  // gifts: string[];
+  // potentialProblemAreas: string[];
+  // explanationOfProblems: string;
+  // solutions: string;
+  // livingHappilyTips: string;
+  // suggestions?: string[];
+  // tenRulesToLive: string[];
 }
 
 export interface TestResult {

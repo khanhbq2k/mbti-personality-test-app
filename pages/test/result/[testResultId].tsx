@@ -51,9 +51,9 @@ export default function TestResultPage() {
                   >
                     <TestResultStats testResult={data} />
                     <TestResult testResult={data} />
-                    <Show above="lg">
+                    {/* <Show above="lg">
                       <TestResultTableOfContent />
-                    </Show>
+                    </Show> */}
                   </Flex>
                 ),
                 None: () => <Text>No Data</Text>,

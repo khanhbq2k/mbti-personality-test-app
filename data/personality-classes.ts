@@ -3,34 +3,34 @@ import { PersonalityClass } from "../lib/personality-test";
 export const personalityClasses: PersonalityClass[] = [
   {
     type: "E",
-    description: "Hướng ngoại",
+    description: "Extroverted (Hướng ngoại)",
   },
   {
     type: "I",
-    description: "Hướng nội",
+    description: "Introverted (Hướng nội)",
   },
   {
     type: "S",
-    description: "Cảm giác",
+    description: "Sensing (Cảm giác)",
   },
   {
     type: "N",
-    description: "Trực giác",
+    description: "Intuitive (Trực giác)",
   },
   {
     type: "T",
-    description: "Tư duy",
+    description: "Thinking (Tư duy)",
   },
   {
     type: "F",
-    description: "Cảm xúc",
+    description: "Feeling (Cảm xúc)",
   },
   {
     type: "P",
-    description: "Nhận thức",
+    description: "Perceiving (Nhận thức)",
   },
   {
     type: "J",
-    description: "Phán đoán",
+    description: "Judging (Phán đoán)",
   },
 ];

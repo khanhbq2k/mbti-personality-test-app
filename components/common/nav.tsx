@@ -24,14 +24,14 @@ export default function Nav() {
           Bài Kiểm Tra Tính Cách MBTI
         </Button>
       </Link>
-      <Link href="/test/result/history">
+      {/* <Link href="/test/result/history">
         <Button
           variant="outline"
           leftIcon={<BiHistory size={24} />}
         >
           Lịch Sử Kết Quả Kiểm Tra
         </Button>
-      </Link>
+      </Link> */}
     </Flex>
   );
 }

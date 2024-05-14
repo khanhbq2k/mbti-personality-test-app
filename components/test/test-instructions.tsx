@@ -25,17 +25,14 @@ export default function TestInstructions(props: TestInstructionsProps) {
         gap={2}
       >
         <Text>
-          Việc hoàn thành bài kiểm tra chỉ mất khoảng 15 phút. Dưới đây là một số gợi ý về cách thực hiện bài kiểm tra này:
+          Bài kiểm tra trong khoảng 15 phút. Dưới đây là một số lưu ý:
         </Text>
         <UnorderedList spacing={2}>
           <ListItem>
             Không có câu trả lời đúng cho bất kỳ câu hỏi nào.
           </ListItem>
           <ListItem>
-            Trả lời các câu hỏi một cách nhanh chóng, đừng phân tích quá kỹ. Một số câu hỏi có vẻ được diễn đạt kém. Hãy đi theo cảm giác tốt nhất của bạn.
-          </ListItem>
-          <ListItem>
-            Trả lời các câu hỏi theo “cách bạn là”, không phải “cách bạn muốn được nhìn nhận bởi người khác”.
+            Trả lời các câu hỏi một cách nhanh chóng, đừng phân tích quá kỹ.
           </ListItem>
         </UnorderedList>
       </Flex>
@@ -45,7 +42,7 @@ export default function TestInstructions(props: TestInstructionsProps) {
         alignSelf="flex-end"
         onClick={props.onCloseTestInstructions}
       >
-        Được rồi, tôi hiểu!
+        Bắt đầu!
       </Button>
     </Flex>
   );

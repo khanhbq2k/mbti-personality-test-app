@@ -88,7 +88,7 @@ export default function TestResult(props: TestResultProps) {
             {`${description}`}
           </Text>
         ))}
-      <Heading
+      {/* <Heading
         scrollMarginTop={8}
         id="jungian-functional-preference-ordering"
         my={4}
@@ -447,7 +447,7 @@ export default function TestResult(props: TestResultProps) {
             {rule}
           </ListItem>
         ))}
-      </UnorderedList>
+      </UnorderedList> */}
     </Flex>
   );
 }
